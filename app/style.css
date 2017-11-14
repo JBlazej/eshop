@@ -1,0 +1,1562 @@
+
+html{
+    background-color: black; 
+
+}
+
+
+
+body{
+    font-family: "brandon",sans-serif,Arial,sans-serif;;
+    background-color: black;
+    margin: 0 auto;
+    width: 960px;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;`    
+}
+
+div.pagination {
+    
+	height: 50px;
+    position: absolute;
+    top: 1240px;
+    left: 268px;
+    color: white;
+    margin-left: 10px;`
+}
+
+div.pagination a {
+	padding: 5px;
+	color: white;
+}
+
+div.pagination2 {
+    
+	height: 50px;
+    position: absolute;
+    top: 1450px;
+    left: 196px;
+    color: white;
+    margin-left: 10px;`
+}
+
+div.pagination2 a {
+	padding: 5px;
+	color: white;
+}
+
+/*HEADER*/
+header{
+    height: 250px;
+    padding-top: 5px;
+
+}
+
+ul{
+    padding: 0px;
+}
+
+li{
+    display: inline;
+    padding: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+header li:nth-child(2) {
+    
+    border-left: 0px solid white;
+}
+
+.left {
+    width: 50px;
+    float: left;
+		padding-top: 56px;
+}
+
+.left ul {
+    padding-left: 30px;
+    padding-top: 100px;
+}
+
+.right {
+    width: 241px;
+    float: right;
+		padding-top: 56px;
+}
+
+.right ul {
+    padding-right: 30px;
+    padding-top: 100px;
+}
+
+.right img {
+    margin-left: 15px;
+}   
+
+
+
+#logo{
+    width: 320px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#logo img{
+   width: 250px;
+   position: absolute;
+   margin-left: 147px; 
+   
+}
+
+#logo p{
+   margin: 1px; 
+   color: white;`
+}
+
+.top{
+	positon: relative;
+    width: 100%;
+	float: center;
+	padding-top: 0px;
+	margin: 0px;
+	
+}
+
+.top p{
+    font-size: 13px;
+	color: white;
+	
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 1px 11px;
+    z-index: 1;
+    margin-top: 20px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 15px 12px;
+    text-decoration: none;
+    display: inline;
+    font-style: inherit;
+    font-weight: bold;
+    
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ea030e}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.left:hover .ul {
+    background-color: #3e8e41;
+}
+
+.left:hover .dropdown-content {
+    display: block;
+}
+
+
+/*CONTENT*/
+#main{
+    background-image: url('images/Palace.jpg');
+    background-color: #ea030e;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 438px;
+    margin: 0px;
+}
+
+#main h1{
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 135px;
+}
+
+#main p{
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#box{
+    background-color: #ea030e;
+    height: 50px;
+    float: center;
+    padding-top: 10px;
+    color: white;`
+}
+
+#box h2{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 439px;
+}
+
+
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+    border: 5px solid green;
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+    
+}
+
+.godsIn{
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    padding-top:15px;
+    
+}
+
+
+.grr{
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    
+}
+
+.godsIn img{
+    position: relative;
+    z-index: 1;
+    margin-left: 15px; 
+    
+    
+}
+
+.godsIn img:hover {
+  opacity: 0.9;
+}
+
+.godsIn p{
+    position: relative;
+    font-size: 14px;
+    width: 100%;
+    color: white;`
+    text-align: center;
+    margin: 1px;
+    margin-left: 15px;
+    
+    
+}
+
+.godsIn button{
+    margin-left:15px;
+}
+
+.grr p{
+    position: relative;
+    font-size: 14px;
+    width: 100%;
+    color: white;`
+    text-align: center;
+    margin: 1px;
+    margin-left: 15px;
+    
+    
+}
+
+/*FOOTER*/
+footer{
+    position: absolute;
+    margin-top: 1200px;
+    height: 70px;
+    width: 960px;
+    font-size: 18px;
+    background-color: #ea030e;
+    color: white;`
+    
+
+
+}
+
+footer p{
+    text-align: center;
+    margin: 1px;
+}
+footer a{
+   margin-right: 15px;
+   color: white;
+}
+
+
+/*SIGNIN*/
+.signInForm {
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 322px;
+
+}
+
+.searchMenu {
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 322px;
+
+}
+.sin p{
+    font-size: 14px;
+    color: white;`
+    margin: 1px;
+
+}
+
+fieldset { 
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    border: 0px solid black;
+}
+
+.signInForm1 label {
+  float:left;
+  width:80%%;
+  text-align:left;
+  font-weight:bold;
+  margin-right: 40px;
+  color: white;`
+  }
+  
+.signInForm2 label {
+  float:left;
+  width:80%%;
+  text-align:left;
+  font-weight:bold;
+  margin-right: 8px;
+  color: white;`
+  }
+  
+.signControl button{
+    background-color: #ea030e; /* #ea030e MOJE CERVENA */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.signControl p{
+    background-color: #ea030e;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.signInForm1{
+margin: 20px;
+}
+
+.signInForm2{
+margin: 20px;
+}
+
+.plusButton button{
+    background-color: #ea030e; /* #ea030e MOJE CERVENA */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 47px;
+    margin-right: 10px;
+    margin-left: 475px;
+
+
+}
+
+/*SIGN UP*/
+#UPMain{
+    background-image: url('images/Store2.jpg');
+    background-color: #ea030e;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 438px;
+    margin: 0px;
+}
+
+#UPMain h1{
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 135px;
+}
+
+#UPMain p{
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.signUpForm {
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 322px;
+
+}
+.sun p{
+    font-size: 14px;
+    color: white;`
+    margin: 1px;
+
+}
+
+fieldset { 
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    border: 0px solid black;
+}
+
+.signUpForm1 label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 85px;
+  color: white;
+  }
+  
+.signUpForm2 label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 52px;
+  color: white;
+  }
+	
+.signUpForm8 label {
+	  float:left;
+	  text-align:left;
+	  font-weight:bold;
+	  margin-right: 28px;
+	  color: white;
+	  }
+  
+.signUpForm3 label {
+  float:left;
+ 
+  text-align:left;
+  font-weight:bold;
+  margin-right: 45px;
+  color: white;
+  }
+  
+.signUpForm4 label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 47px;
+  color: white;
+  }
+  
+.signUpForm5 label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 74px;
+  color: white;
+  }
+  
+.signUpForm6 label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 98px;
+  color: white;
+  }
+  
+.signUpForm7 label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 95px;
+  color: white;
+  }
+
+.signUpControl{
+	padding: 20px;
+	
+}
+.signUpControl button{
+    background-color: #ea030e; /* #ea030e MOJE CERVENA */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.signUpForm1{
+margin: 15px;
+}
+.signUpForm2{
+margin: 15px;
+}
+.signUpForm3 {
+margin: 15px;
+}
+.signUpForm4{
+margin: 15px;
+}
+.signUpForm5{
+margin: 15px;
+}
+.signUpForm6{
+margin: 15px;
+}
+.signUpForm7{
+margin: 15px;
+}
+.signUpForm8{
+margin: 15px;
+}
+
+/*UPDATE FORM*/
+.updateForm label{
+    font-size: 16px;
+    color: white;`
+    margin: 1px;
+
+}
+
+.updateForm input{
+    width: 180px;
+
+}
+
+.updateForm textarea{
+    width: 180px;
+
+}
+
+.updateForm p{
+    font-size: 14px;
+    color: white;`
+    margin: 1px;
+
+}
+
+.updateForm label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 85px;
+  color: white;`
+  }
+  
+  .updateForm1 label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 85px;
+  color: white;`
+  }
+  
+.updateForm2 label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 150px;
+  color: white;`
+  }
+  
+.updateForm3 label {
+  float:left;
+ 
+  text-align:left;
+  font-weight:bold;
+  margin-right: 100px;
+  color: white;`
+  }
+  
+.updateForm4 label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 98px;
+  color: white;`
+  }
+  
+.updateForm6 label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 128px;
+  color: white;`
+  }
+  
+.updateForm4 select {
+  width: 180px;
+  }
+.updateForm5 {
+  margin-top: 50px;
+  }
+  
+.show{
+    height: 420px;
+    width: 420px;
+    display: inline;
+    float: right;
+    line-height: 10px;
+    min-height: 2px;
+    padding-left: 18px;
+    padding-right: 18px;
+    position: static;
+    white-space: nowrap;
+    margin-top: 50px;
+
+}
+
+.show img{
+margin-left: 90px;
+
+}
+.updateForm {
+    height: 600px;
+    width:  400px;
+    display: inline;
+    object-position: 50% 50%;
+    max-width: none;
+
+}
+
+.updateForm fieldset{
+    height: 600px;
+    width:  400px;
+    display: inline;
+    object-position: 50% 50%;
+    max-width: none;
+    margin-top: 50px;
+
+}
+   
+  
+.updateForm5 button{
+    background-color: #ea030e; /* #ea030e MOJE CERVENA */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+
+
+ /*BUYING*/
+.Rauch{
+    background-color: #ea030e;
+    height: 800px;
+    width:  600px;
+    display: inline;
+    object-position: 50% 50%;
+    max-width: none;
+    line-height: 10px;
+    min-height: 2px;
+    padding-left: 1px;
+    padding-right: 18px;
+    position: static;
+    
+
+
+}
+
+.Bauch{
+    background-color: #ea030e;
+    border-color: #4d4d4d;
+    height: 600px;
+    width: 305px;
+    display: inline;
+    float: right;
+    font-family: "brandon",sans-serif,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 10px;
+    min-height: 2px;
+    padding-left: 18px;
+    padding-right: 18px;
+    position: static;
+    white-space: nowrap;
+    
+}
+
+.helpos{
+    width: 305px;
+    height: 20px;
+    word-wrap: pre-line;
+
+}
+.Bauch h1{
+    font-size: 30px;
+
+}
+
+.Bauch h2{
+    font-size: 25px;
+
+}
+
+.Bauch p{
+    font-size: 18px;
+
+}
+
+.errorH4 h1{
+	color: white;
+	
+}
+
+.Bauch button{
+    background-color: black; /* #ea030e MOJE CERVENA */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+		margin-top:10px;
+    margin-left:0px;
+		width:220px;
+
+
+}
+
+.Bauch select{
+		
+   background-color: #000;
+   border: none;
+   font-size: 14px;
+   height: 35px;
+   padding: 5px;
+   width: 220px;
+   color: white;
+	 margin-top:15;
+	 margin-bottom:15px;
+
+}
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+.priceHolder1{
+    margin-top:76px;
+		padding-left:40px;
+		display:grid;
+
+}
+.suit{
+    width:  960px;
+    height: 600px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #ea030e;
+    background-color: #ea030e;
+}
+ .searchMenu{
+    margin-left: 50px;
+ 
+ 
+ }
+.searchOpts select{
+
+    border: 1px;
+   font-size: 14px;
+   height: 35px;
+   padding: 5px;
+   width: 220px;
+   color: black;
+   margin-bottom: 15px;
+   margin-left: 93px;
+
+}
+
+/*CART*/
+
+.cartos {
+	width:525px;
+	float:left;
+	margin:5px;
+	margin-right:7px;
+	margin-top:18px;
+	margin-bottom:0px;
+	padding:10px;
+	
+}
+.toPrd{
+	float:right;
+	display:inline;
+	position:absolute;
+	margin-left:150px;
+	width:230px;
+	margin-right:56px;
+	margin-top:46px;
+	text-align:center;
+	color:black;
+	border: 5px solid #ea030e;
+	background-color: #E5E5E5;
+	
+	
+}
+
+.toPrd button{
+  background-color: #ea030e; /* #ea030e MOJE CERVENA */
+  border: none;
+  color: white;
+  padding: 15px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-right: 0px;
+	margin-bottom: 12px;
+
+}
+.topCart h1{
+    color: white;
+}
+
+.topCart p{
+    color: white;
+}
+
+.box8080 h1{
+    color: black;
+		font-size:16px;
+		margin-bottom:5px;
+		margin-top:10px;
+
+}
+
+.box8080 {
+	display:table;
+	margin-bottom:37px;
+	width:100%;
+	margin-top:17px;
+	border: 5px solid #ea030e;
+	border-spacing: 12px;
+	background-color: #E5E5E5;
+	
+}
+
+.box8080 img{
+	float:left;
+	margin-top:1px;
+	margin-bottom:10px;
+	margin-right:20px;
+	
+	
+}
+
+.box8080 p{
+    color: black;
+		font-size:14px;
+
+}
+
+/*ADMIN*/
+#adm{
+    background-color: #ea030e;
+    height: 50px;
+    float: center;
+    padding-top: 10px;
+    color: white;`
+}
+
+.bordel h3{
+    color:white;
+    float:left;
+    margin-left:35px;
+    margin-right:30px;
+}
+
+
+.bordel{
+    float:none;
+    width:1000px;
+    margin-bottom:15px;
+    margin-left: 68px;
+    height:50px;
+
+}
+.bordel h3:hover {
+    background-color: #ea030e;
+}
+
+#adm h2{
+font-size: 12px;
+color: white;
+fleat: left;
+}
+
+#adm button{
+    background-color: #ea030e; /* #ea030e MOJE CERVENA */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.adm a:h2 {background-color: #ea030e}
+
+/*CSS FOR MODAL IMAGES*/
+img.modal-img {
+  cursor: pointer;
+  transition: 0.3s;
+}
+img.modal-img:hover {
+  opacity: 0.9;
+}
+.img-modal {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
+}
+.img-modal img {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700%;
+}
+.img-modal div {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+.img-modal img, .img-modal div {
+  animation: zoom 0.8s;
+}
+.img-modal span {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px) {
+  .img-modal img {
+    width: 100%;
+  }
+}
+@keyframes zoom {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}   
+
+/*ADD FORM*/
+.addForm label{
+    font-size: 16px;
+    color: white;`
+    margin: 8px;
+
+}
+
+.addForm input{
+    width: 180px;
+
+}
+
+.addForm textarea{
+    width: 180px;
+
+}
+
+.addForm p{
+    font-size: 14px;
+    color: white;`
+    margin: 1px;
+
+}
+
+.addForm label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 85px;
+  color: white;`
+  }
+  
+  .addForm1 label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 85px;
+  color: white;`
+  }
+  
+.addForm2 label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 150px;
+  color: white;`
+  }
+  
+.addForm3 label {
+  float:left;
+ 
+  text-align:left;
+  font-weight:bold;
+  margin-right: 100px;
+  color: white;`
+  }
+  
+.addForm4 label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 170px;
+  color: white;`
+  }
+  
+.addForm5 label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 128px;
+  color: white;`
+  }
+  
+.addForm6 label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 102px;
+  color: white;`
+  }
+  
+.addForm7 label {
+  float:left;
+  
+  text-align:left;
+  font-weight:bold;
+  margin-right: 145px;
+  color: white;`
+  }
+  
+.addForm {
+    height: 600px;
+    width:  400px;
+    display: inline;
+    object-position: 50% 50%;
+    max-width: none;
+
+}
+
+.addForm fieldset{
+    height: 600px;
+    width:  400px;
+    display: inline;
+    object-position: 50% 50%;
+    max-width: none;
+    margin-top: 50px;
+
+}
+   
+  
+.addForm8 button{
+    background-color: #ea030e; /* #ea030e MOJE CERVENA */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+/*Bio*/
+.info h1{
+	
+	color: white;
+	
+}
+
+.info p{
+	
+	color: white;
+	
+}
+
+.InfoUser{
+	color: white;
+	
+}
+
+.InfoUserBtn button{
+   background-color: #ea030e; /* #ea030e MOJE CERVENA */
+   border: none;
+   color: white;
+   padding: 15px 30px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin-top: 15px;
+   margin-right: 10px;
+	
+}
+/*PROFILE INFO */
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+		text-align: left;
+}
+
+td {
+    height: 70px;
+    vertical-align: bottom;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+		border-bottom: 1px solid #ddd;
+}
+td{
+	border-bottom: 1px solid #ea030e;
+}
+
+.infoUserBtn button{
+	margin-right: 70px;
+	
+}
+/*UPDATE PROFILE INFORMATIONS*/
+.updateProfile1 label {
+  float:left;
+  font-size:20px;
+  text-align:left;
+  font-weight:bold;
+  margin-right: 120px;
+	margin-bottom:15px;
+  color: white;`
+  }
+
+.updateProfile{
+	margin: 10px;
+	
+	}
+	.updateProfile fieldset{
+	display: inline;
+	
+}
+
+.updateProfile input{
+    border: none;
+    border-bottom: 4px solid #ea030e;
+	  background-color: black;
+	  color: white;
+		font-size:15px;
+		margin-bottom:15px;
+}
+.updateProfile2 label {
+    float:left;
+  	font-size:20px;
+    text-align:left;
+    font-weight:bold;
+    margin-right: 122px;
+		margin-bottom:15px;
+    color: white;`
+    }
+.updateProfile3 label {
+	   float:left;
+  	 font-size:20px;
+	   text-align:left;
+	   font-weight:bold;
+	   margin-right: 81px;
+		 margin-bottom:15px;
+	   color: white;`
+	   }	
+		
+.updateProfile4 label {
+		  float:left;
+  		font-size:20px;
+		  text-align:left;
+		  font-weight:bold;
+		  margin-right: 170px;
+			margin-bottom:15px;
+		  color: white;`
+		  } 
+.updateProfile5 label {
+  float:left;
+  font-size:20px;
+  text-align:left;
+  font-weight:bold;
+  margin-right: 155px;
+	margin-bottom:15px;
+  color: white;`
+  }
+	
+.updateProfile6 label {
+	  float:left;
+  	font-size:20px;
+	  text-align:left;
+	  font-weight:bold;
+	  margin-right: 184px;
+		margin-bottom:15px;
+	  color: white;`
+	}
+
+.updateProfile7 label {
+		  float:left;
+  		font-size:20px;
+		  text-align:left;
+		  font-weight:bold;
+		  margin-right: 180px;
+			margin-bottom:15px;
+		  color: white;`
+}
+			
+.updateProfile9 label {
+	float:left;
+  font-size:20px;
+	text-align:left;
+	font-weight:bold;
+	margin-right: 46px;
+	margin-bottom:15px;
+	color: white;`
+}
+				
+.updateProfile8 button{
+	background-color: #ea030e; /* #ea030e MOJE CERVENA */
+	border: none;
+	float: right;
+	color: white;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+
+/* CHECK.PHP*/
+
+.userBuy{
+	float:left;
+	
+}
+
+.userBuy h2{
+	
+	color: white;
+}
+
+.userBuy p{
+	color: white;
+}
+
+.nice table{
+    width:520px;
+	float:right;
+	color:white;
+	
+}
+
+.userBuy h1{
+    color:white;
+}
+
+.nice button{
+    position:relative;
+    background-color: #ea030e; /* #ea030e MOJE CERVENA */
+	border: none;
+	float: none;
+	color: white;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline;
+	font-size: 16px;
+    margin-top:10px;
+    top:120px;
+    width:200px;
+    
+}
+          
+.finish p{
+    color:white;
+}
+
+.finish h2{
+    color:white;
+}
+
+/* DETIL ORDERS*/
+.peklo table{
+    border: 1px solid white;
+    color: white;
+    width:500px;
+    height: 220px;
+    float:left;
+    margin-top:50px;
+    
+
+}
+
+.peklo th, td {
+   border: 1px solid white;
+   margin:5px;
+   padding: 10px;
+   width: 107px;
+   height: 2px;
+}
+
+.peklo {
+    padding:10px;
+    margin-top:100px;
+    margin-left:0px;
+
+}
+
+.nebe{
+   padding:10px;
+}
+
+.nebe table{
+    border: 1px solid white;
+    color: white;
+    width:500px;
+    height: 120px;
+    float:left;
+    margin-top: 30px;
+
+}
+.nebe th, td, tr {
+   border: 1px solid white;
+   margin:5px;
+   padding: 10px;
+   width: 107px;
+   height: 2px;
+}
+
+.ratata{
+   padding:10px;
+}
+
+.ratata table{
+    border: 1px solid white;
+    color: white;
+    width:950px;
+    height: 120px;
+    float:left;
+    margin-top: 30px;
+
+}
+.ratata th, td, tr {
+   border: 1px solid white;
+   margin:5px;
+   padding: 10px;
+   width: 107px;
+   height: 2px;
+}
+
+/* STAR.PHP */
+.cn1 {
+    text-align: center;
+    border:3px solid white;
+    width: 320px;
+    margin-left:320px;
+    margin-top: 50px;
+}
+
+.cn1 h1 {
+    padding: 10px;
+    color:white;
+
+}
+.cn1 h2 {
+    padding: 10px;
+    color:#ea030e;
+    padding-top:0px;
+
+}
+
+.cn2 {
+    text-align: center;
+    border:3px solid white;
+    width: 320px;
+    margin-left:320px;
+    margin-top: 20px;
+
+}
+.cn2 h1 {
+    padding: 10px;
+    color:white;
+
+}
+.cn2 h2 {
+    padding: 10px;
+    color:#ea030e;
+    padding-top:0px;
+
+}
+
+.cn3 {
+    text-align: center;
+    border:3px solid white;
+    width: 320px;
+    margin-left:320px;
+    margin-top: 20px;
+
+}
+.cn3 a {
+    padding: 10px;
+    color:white;
+
+}
+
+.Rakan {
+    text-align: center;
+    border:3px solid white;
+    width: 320px;
+    margin-left:320px;
+    margin-top: 20px;
+
+}
+.Rakan h1 {
+    padding: 10px;
+    color:white;
+
+}
+.Rakan h2 {
+    padding: 10px;
+    color:#ea030e;
+    padding-top:0px;
+
+}
+
+/*SHOW ORDERS */
+.orderin {
+    text-align: center;
+    padding: 15px;
+    margin-left: 100px;
+    width: 900px;
+    
+}
+
+.orderino {
+    border: 2px solid white;
+    float: left;
+    width: 300px;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    }
+
+.orderino p{
+   color: white;
+}
+
+.orderino h2{
+   color: white;
+}
+
+.orderino:hover { 
+    background-color: #ea030e;
+}
+
+.fast p{
+   color: white;
+}
